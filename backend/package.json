@@ -6,7 +6,7 @@
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "@prisma/extension-accelerate": "^0.6.3",
-    "@star_dust1/medium-common": "^1.0.1",
+    "@star_dust1/medium-common": "^1.1.1",
     "hono": "^4.0.5"
   },
   "devDependencies": {
