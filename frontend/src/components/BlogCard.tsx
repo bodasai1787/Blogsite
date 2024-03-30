@@ -20,7 +20,7 @@ const BlogCard = ({
 			<div className="border-b-[1px] border-slate-200 py-4 cursor-pointer">
 				<div className="flex items-center gap-1 pb-2">
 					<div className="flex flex-col justify-center">
-						<Avatar name={authorName} />{" "}
+						<Avatar name={authorName} size={8} />{" "}
 					</div>
 					<div className="font-light">{authorName}</div>
 					<div>
@@ -45,7 +45,7 @@ const BlogCard = ({
 
 export default BlogCard;
 
-export function Avatar({ name, size = 7 }: { name: string; size?: number }) {
+export function Avatar({ name, size = 8 }: { name: string; size?: number }) {
 	return (
 		<div
 			className={`relative inline-flex items-center justify-center w-${size} h-${size} overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600`}
